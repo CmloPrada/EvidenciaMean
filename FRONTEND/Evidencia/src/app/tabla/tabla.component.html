@@ -1,0 +1,20 @@
+<div class="container px-5">
+    <div class="d-flex justify-content-center">
+        <table class="table table-success table-striped table-bordered ">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let usuario of usuarios">
+                    <td>{{usuario.nombre}}</td>
+                    <td>{{usuario.apellido}}</td>
+                    <td>{{usuario.edad}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
